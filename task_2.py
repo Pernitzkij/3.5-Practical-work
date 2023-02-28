@@ -1,0 +1,6 @@
+list_one = list(range(160, 177, 2))
+print(f'Первая шеренга: {list_one}')
+list_two = list(range(162, 181, 3))
+print(f'Вторая шеренга:{list_two}')
+list_one.extend(list_two)
+print(f'Отсортированный список учеников: {sorted(list_one)}')
